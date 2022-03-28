@@ -1,0 +1,7 @@
+{
+  "$schema": "./node_modules/@react-native-firebase/app/firebase-schema.json",
+  "react-native": {
+    "admob_android_app_id": "ca-app-pub-6905555340882279~6470179318",
+    "admob_ios_app_id": "ca-app-pub-6905555340882279~4665911544"
+  }
+}

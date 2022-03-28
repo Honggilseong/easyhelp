@@ -1,0 +1,182 @@
+import {StyleSheet} from 'react-native';
+import colors from '../../Assets/theme/colors';
+import fontSize from '../../Assets/theme/fontSize';
+export default StyleSheet.create({
+  wrapper: {
+    padding: 10,
+    backgroundColor: colors.white,
+    borderRadius: 7,
+    marginBottom: 10,
+    borderColor: colors.grey,
+    borderWidth: 1,
+  },
+  title: {
+    fontWeight: '700',
+    fontSize: 27,
+  },
+
+  priceAndTime: {
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    marginTop: 7,
+    marginBottom: 7,
+  },
+  neighborhood: {
+    fontSize: 13,
+    color: colors.gray,
+  },
+  price: {
+    fontWeight: '700',
+    fontSize: 16,
+  },
+  timestamp: {
+    color: colors.gray,
+  },
+  description: {
+    marginTop: 20,
+    fontSize: 18,
+  },
+  aboveMessage: {
+    borderWidth: 1,
+    borderColor: colors.grey,
+    marginTop: 7,
+  },
+  messageAndReport: {
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 12,
+  },
+
+  userModalContainer: {
+    flex: 1,
+    alignItems: 'center',
+    width: '70%',
+    maxHeight: 300,
+    backgroundColor: colors.white,
+    alignSelf: 'center',
+    borderRadius: 7,
+  },
+  infoContainer: {
+    height: 100,
+    backgroundColor: colors.primary,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderTopRightRadius: 7,
+    borderTopLeftRadius: 7,
+  },
+  userModalText: {
+    color: colors.white,
+    fontSize: fontSize.modalTitle,
+  },
+  blockContainer: {
+    height: 100,
+    backgroundColor: colors.red,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  cancelContainer: {
+    height: 100,
+    backgroundColor: colors.grey,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomRightRadius: 7,
+    borderBottomLeftRadius: 7,
+  },
+  userModalContainer: {
+    flex: 1,
+    alignItems: 'center',
+    width: '70%',
+    maxHeight: 300,
+    backgroundColor: colors.white,
+    alignSelf: 'center',
+    borderRadius: 7,
+  },
+  infoContainer: {
+    height: 100,
+    backgroundColor: colors.primary,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderTopRightRadius: 7,
+    borderTopLeftRadius: 7,
+  },
+  userModalText: {
+    color: colors.white,
+    fontSize: fontSize.modalTitle,
+  },
+  blockContainer: {
+    height: 100,
+    backgroundColor: colors.red,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  cancelContainer: {
+    height: 100,
+    backgroundColor: colors.grey,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomRightRadius: 7,
+    borderBottomLeftRadius: 7,
+  },
+  userInfoModalContainer: {
+    width: 350,
+    height: 450,
+    backgroundColor: colors.white,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    borderRadius: 7,
+  },
+  userInfoWrapper: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 390,
+    borderWidth: 1,
+    borderColor: 'black',
+    borderTopRightRadius: 7,
+    borderTopLeftRadius: 7,
+  },
+  userNameText: {
+    marginBottom: 12,
+    fontWeight: '700',
+    fontSize: 18,
+  },
+  recommendButtonContainer: {
+    height: 60,
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'row',
+    flex: 1,
+    width: '85%',
+  },
+  userInfoButtonsContainer: {
+    height: 60,
+  },
+  cancelButton: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRightWidth: 1,
+    borderColor: 'black',
+    flex: 1,
+    backgroundColor: colors.primary,
+  },
+  cancelButtonText: {
+    color: colors.white,
+    fontSize: fontSize.text,
+  },
+  doneButton: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+    backgroundColor: colors.primary,
+  },
+  doneButtonText: {
+    color: colors.white,
+    fontSize: fontSize.text,
+  },
+});
